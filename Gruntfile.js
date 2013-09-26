@@ -39,6 +39,12 @@ module.exports = function(grunt) {
 
 		// Minify definitions
 		uglify: {
+			options: {
+				global_defs: {
+					"DEBUG": false
+				},
+				dead_code: true
+			},
 			my_target: {
 				src: ["dist/jquery.text-rotator.js"],
 				dest: "dist/jquery.text-rotator.min.js"

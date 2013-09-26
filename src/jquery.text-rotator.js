@@ -1,4 +1,10 @@
 (function() {
+  var DEBUG;
+
+  if (typeof DEBUG === "undefined") {
+    DEBUG = true;
+  }
+
   (function($, window, document) {
     var Plugin, defaults, pluginName;
     pluginName = "textRotator";
@@ -17,11 +23,11 @@
       }
 
       Plugin.prototype.init = function() {
-        console.group("Plugin Initialized");
-        console.log("got text");
-        console.log("got text");
-        console.log("got text");
-        return console.groupEnd();
+        DEBUG && console.group("Plugin Initialized");
+        DEBUG && console.log("got text");
+        DEBUG && console.log("got text");
+        DEBUG && console.log("got text");
+        return DEBUG && console.groupEnd();
       };
 
       Plugin.prototype.yourOtherFunction = function() {};

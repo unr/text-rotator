@@ -1,3 +1,5 @@
+DEBUG = true if typeof DEBUG is "undefined" # will be removed
+
 # Wrapper
 do ($ = jQuery, window, document) ->
 
@@ -18,18 +20,18 @@ do ($ = jQuery, window, document) ->
 			@init() # now we have access to the above
 
 		init: ->
-			console.group "Plugin Initialized"
+			DEBUG && console.group "Plugin Initialized"
 
 			# Capture the .text() of @element as _originalString
-			console.log "got text"
+			DEBUG && console.log "got text"
 
 			# Explode _original as _strings[]
-			console.log "got text"
+			DEBUG && console.log "got text"
 
 			# Set Timeout call to @rotate()
-			console.log "got text"
+			DEBUG && console.log "got text"
 
-			console.groupEnd()
+			DEBUG && console.groupEnd()
 
 
 		yourOtherFunction: ->
