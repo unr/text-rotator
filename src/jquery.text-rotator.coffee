@@ -10,7 +10,7 @@ do ($ = jQuery, window, document) ->
 	# Create the defaults once
 	pluginName = "textRotator"
 	defaults =
-		property: "value"
+		string: "default string"
 
 	# The actual plugin constructor
 	class Plugin

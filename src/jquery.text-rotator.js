@@ -3,7 +3,7 @@
     var Plugin, defaults, pluginName;
     pluginName = "textRotator";
     defaults = {
-      property: "value"
+      string: "default string"
     };
     Plugin = (function() {
       function Plugin(element, options) {
