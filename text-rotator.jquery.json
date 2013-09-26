@@ -1,0 +1,38 @@
+{
+	"name": "Text Rotator",
+	"title": "jQuery Text Rotator",
+	"description": "Super simple semantic text rotator.",
+	"keywords": [
+		"jquery",
+		"text",
+		"rotator",
+		"css",
+		"animate"
+	],
+	"version": "0.0.1",
+	"author": {
+		"name": "Paul Morrison",
+		"email": "paul.unr@gmail.com",
+		"url": "https://github.com/unr"
+	},
+	"maintainers": [
+		{
+			"name": "Paul Morrison",
+			"email": "paul.unr@gmail.com",
+			"url": "https://github.com/unr"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://mit-license.org/"
+		}
+	],
+	"bugs": "https://github.com/unr/text-rotator/issues",
+	"homepage": "https://github.com/unr/text-rotator/",
+	"docs": "https://github.com/unr/text-rotator/",
+	"download": "https://github.com/unr/text-rotator/README.md",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}

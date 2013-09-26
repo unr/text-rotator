@@ -6,6 +6,7 @@ Currently, work in progress.
 
 ## TODOS
 
-- [ ] Set up jQuery Boilerplate, via yeoman
-- [ ] Create a simple demo page
-- [ ] MVP, gogogo
+- [x] Set up jQuery Boilerplate, via yeoman
+- [x] Create a simple demo page _thanks, yeoman_
+- [ ] Update CONTRIBUTING.md
+- [ ] Impliment a proper watch
