@@ -11,7 +11,9 @@
     var Plugin, defaults, pluginName;
     pluginName = "textRotator";
     defaults = {
-      string: "default string"
+      animation: "show",
+      separator: ",",
+      delay: 3000
     };
     Plugin = (function() {
       function Plugin(element, options) {
@@ -23,7 +25,11 @@
       }
 
       Plugin.prototype.init = function() {
-        return console.log("xD");
+        console.group("Plugin Initialized");
+        console.log("got text");
+        console.log("got text");
+        console.log("got text");
+        return console.groupEnd();
       };
 
       Plugin.prototype.yourOtherFunction = function() {};
