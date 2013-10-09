@@ -20,14 +20,14 @@
 		<script>
 			$(function() {
 				$(".rotate").textRotator({
-					string: "a custom value"
+					separator: "|",
+					delay: 1000
 				});
 			});
 		</script>
 
 		<div class='panel'>
-			<p>This is a <span class='rotate'>Cool, Fun, Awesome,
-				Ridiculous</span> String.</p>
+			<p>This is a <span class='rotate'><em>Cool</em>| Fun| Awesome| Ridiculous</span> String.</p>
 		</div>
 	</body>
 </html>

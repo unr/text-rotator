@@ -41,7 +41,7 @@ module.exports = function(grunt) {
 		uglify: {
 			options: {
 				global_defs: {
-					"DEBUG": false
+					DEBUG: false
 				},
 				dead_code: true
 			},
